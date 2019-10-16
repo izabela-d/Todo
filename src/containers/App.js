@@ -2,6 +2,7 @@ import React from 'react';
 import style from './App.css';
 import Title from '../components/Title.js';
 import TodoList from '../components/TodoList.js';
+import { hot } from 'react-hot-loader';
 
 class App extends React.Component {
     constructor(props){
@@ -40,4 +41,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default hot(module)(App);
