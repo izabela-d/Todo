@@ -1,0 +1,10 @@
+.list {
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.list:hover {
+    cursor: pointer;
+}
